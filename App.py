@@ -13,7 +13,7 @@ st.write('''
 
 ''')
 # creating the dataset for finding the image
-data = pd.read_csv('Data/test.csv')
+data = pd.read_csv('Data/train.csv')
 data = np.array(data)
 data = data.T
 y_train = data[0]
