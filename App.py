@@ -13,8 +13,7 @@ st.write('''
 
 ''')
 # creating the dataset for finding the image
-url = "https://github.com/kannanjayachandran/NN-Accuracy-Visualizer/blob/ab049f701e7a8500ccf13a6c216d7c3f6546a61a/Data/test.csv"
-data = pd.read_csv(url, header=None)
+data = pd.read_csv('Data/test.csv')
 data = np.array(data)
 data = data.T
 y_train = data[0]
